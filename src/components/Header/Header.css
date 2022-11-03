@@ -1,0 +1,5 @@
+@import '../../App.css';
+
+h1 {
+    font-size: var(--font-header);
+}

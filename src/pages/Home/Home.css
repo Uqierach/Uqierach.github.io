@@ -1,0 +1,43 @@
+@import '../../App.css';
+
+.flex {
+    display: flex;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+
+    width: 100vw;
+    height: 100vh;
+    max-width: 375px;
+    max-height: 667px;
+    padding: 24px 44px 48px;
+}
+
+.home .home-header {
+    flex-direction: column;
+    gap: var(--gap);
+}
+
+.home .home-header h2 {
+    font-size: var(--font-x-large);
+}
+
+.home .home-header p {
+    flex-direction: column;
+    gap: 1rem;
+
+    color: var(--light-gray);
+}
+
+.home .recent-recipes {
+    flex-direction: column;
+    gap: var(--gap);
+}
+
+.home .recent-recipes h3 {
+    color: var(--dark-gray);
+    letter-spacing: normal;
+}

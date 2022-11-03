@@ -1,0 +1,80 @@
+@import '../../App.css';
+@import '../../components/Button/Button.css';
+
+.flex {
+    display: flex;
+}
+
+.registration {
+    flex-direction: column;
+    justify-content: space-between;
+    
+    width: 100vw;
+    height: 100vh;
+    max-width: 375px;
+    max-height: 667px;
+    padding: 1.5rem 3rem 2.75rem;   
+    background: linear-gradient(180deg, transparent, black) ,url('../../assets/images/classic-thai-food.jpg');
+    background-size: cover;
+    /* border-radius: 40px; */
+}
+
+.registration .bottom { 
+    flex-direction: column;
+    justify-content: space-between;
+    
+    text-align: center;
+}
+
+.registration .bottom p { 
+    font-size: var(--font-medium);
+}
+
+
+.registration .top { 
+    text-align: right;
+    align-self: flex-end;
+}
+
+.registration .top .lang { 
+    gap: 5px;
+    
+    background-color: rgba(0, 0, 0, 0.495);
+    border-radius: var(--radius-10);   
+    padding: 10px 15px; 
+    color: var(--light-gray);
+    font-weight: 600;
+    font-size: var(--font-small);
+}
+
+.registration .top .lang p {
+    text-align: left;
+}
+
+.registration .top .lang .dropdown { 
+    width: 20px;
+    height: 20px;
+    background: url('../../assets/icons/down-arrow.svg');
+}
+
+.registration .bottom .bottom-text {
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 3.5rem;
+}
+
+.registration .bottom .bottom-text h3 {
+    color: white;
+}
+
+.registration .bottom .bottom-text p {
+    color: var(--light-gray);
+    letter-spacing: 1.5px;
+    line-height: 1.5rem;
+}
+
+.registration .bottom Button[class='primary'], 
+.registration .bottom a.primary {
+    margin-bottom: 1.5rem;
+}
+

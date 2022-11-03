@@ -1,0 +1,58 @@
+@import url('../../App.css');
+
+.recomm-recipes {
+    flex-direction: column;
+    gap: var(--gap);
+}
+
+.recomm-recipes .container { 
+    flex-direction: column;
+    gap: .75rem;
+}
+.recomm-header {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.recomm-header .show {
+    color: var(--primary);
+}
+
+
+
+/* styling for each items */
+article.item { 
+    flex-basis: 100%;
+    gap: 1rem;
+
+    background: var(--light-blue);
+    border-radius: var(--radius-10);
+    padding: 12px;
+}
+
+.item .item-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    padding: 8px;
+    border-radius: var(--radius-5);
+}
+
+.item .item-text {
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.item .item-text p { 
+    color: var(--light-gray);
+    font-weight: 400;
+    font-size: var(--font-x-small);
+}
+
+.item .item-text p img { 
+    margin-right: 5px;
+    width: 10px;
+    opacity: .4;
+}

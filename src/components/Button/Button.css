@@ -1,0 +1,32 @@
+@import url('../../App.css');
+
+
+.button {
+    outline: none;
+    background: none;
+    color: white;
+    padding: 15px 20px;
+    font-size: var(--font-semilarge);
+    font-family: inherit;
+    border-radius: var(--radius-10);
+    border: 1px solid white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: .3s ease;
+}
+
+.primary {
+    background: var(--primary);
+    border: 1px solid var(--primary);
+}
+
+.primary:hover, 
+.primary:hover {
+    background: var(--hover-primary);
+    border-color: var(--hover-primary);
+}
+
+.base {
+    background: transparent;
+    border: 1px solid var(--light-gray);
+}

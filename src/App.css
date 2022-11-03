@@ -1,0 +1,81 @@
+:root {
+  --font-header-d: 65px;
+  --font-header-m: 50px;
+  --font-x-large: 24px;
+  --font-large: 18px;
+  --font-semilarge: 16px;
+  --font-medium: 14px;
+  --font-small: 12px;
+  --font-x-small: 10px;
+
+  --primary: rgb(235, 128, 2);
+  --hover-primary: rgb(175, 94, 0);
+  --light-blue: #f4f5ff;
+  --base: transparent;
+  --light-gray: #969696;
+
+  --black: #000;
+  --soft-gray: #5D5D5D;
+  --dark-gray: #15151599;
+
+  --text-uppercase: uppercase;
+  --text-capitalize: capitalize;
+
+  --quicksand: 'Quicksand', sans-serif;
+
+  --radius-5: 5px;
+  --radius-10: 10px;
+
+  --gap: 1rem;
+
+  --shadow: 3px 5px 12px rgba(0, 0, 0, .055);
+  --card-shadow: 5px 7px 15px rgba(0, 0, 0, .2);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+
+body {
+  font-family: var(--quicksand);
+}
+
+li {
+  list-style: none;
+}
+
+Button {
+  outline: none;
+  background: none;
+  color: white;
+  padding: 20px;
+  font-size: var(--font-medium);
+  font-family: inherit;
+  border-radius: var(--radius-10);
+}
+
+h2 {
+  font-size: var(--font-x-large);
+  font-weight: bold;
+}
+
+h3 {
+  font-size: var(--font-large);
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+p {
+  font-size: var(--font-small);
+  font-weight: 600;
+}
